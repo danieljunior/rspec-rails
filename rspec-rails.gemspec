@@ -51,8 +51,8 @@ Gem::Specification.new do |s|
       expected_rspec_version = "3.11.0.pre"
       s.add_runtime_dependency "rspec-#{name}", "= #{expected_rspec_version}"
     else
-      expected_rspec_version = "3.10.0"
-      s.add_runtime_dependency "rspec-#{name}", "~> #{expected_rspec_version.split(".")[0..1].join(".")}"
+      expected_rspec_version = "4.0.0.pre"
+      s.add_runtime_dependency "rspec-#{name}", "= #{expected_rspec_version}"
     end
   end
 
